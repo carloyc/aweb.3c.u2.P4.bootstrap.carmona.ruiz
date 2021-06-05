@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practica html 4</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        .menu {
+            width: 20%;
+            float: left;
+            background-color: #E0EEB9;
+        }
+
+        .menu ul {
+            list-style: none;
+        }
+
+        .menu ul li {
+            padding: 5px;
+        }
+        .menu ul a:link,
+        .menu ul a:visited,
+        .menu ul a:active {
+            text-decoration:none;
+            color: #000
+        }
+        .menu ul li:hover{
+          background-color: blue;
+          font-weight: bold;
+        }
+        #content{
+            width: 80%; float: left
+        }
+        #content article{
+            margin: 10px;
+        }
+        article h1{
+            color: blueviolet;
+            border-bottom: #000 solid 1px;
+
+        }
+        
+    </style>
+</head>
+
+<body style="background-color: #F0F0F0;">
+    <main>
+        <header>
+            <h1> PRACTICA html5 </h1>
+
+        </header>
+        <nav class="menu">
+            <Ul>
+
+                <LI>
+                    <a href="#">INICIO</a> 
+                </LI>
+
+                <LI>
+                    <a href="#">TIPO AGUA</a> 
+                </LI>
+                <LI>
+                    <a href="#">TIPO PLANTA</a>
+                 </LI>
+                <LI>
+                    <a href="#">TIPO FUEGO</a> 
+                </LI>
+            </Ul>
+
+        </nav>
+        <section id="content" >
+            <article>
+                <h1> articulo 1</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloribus id fugit provident
+                    obcaecati voluptatem, tempore quis, accusantium sequi cum dignissimos veritatis doloremque hic fuga
+                    ea, eos incidunt numquam quae!</p>
+                    
+                    <ul>articulo 1</ul>
+                    <ul>articulo 2 </ul>
+                    <ul>articulo 3</ul>
+                    <ul>articulo 4</ul>
+            </article>
+            <article>
+                <h1>articulo 2</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe doloribus id fugit provident
+                    obcaecati voluptatem, tempore quis, accusantium sequi cum dignissimos veritatis doloremque hic fuga
+                    ea, eos incidunt numquam quae!</p>
+            </article>
+        </section>
+
+        <footer> pie de pagina </footer>
+    </main>
+</body>
+
+</html>
